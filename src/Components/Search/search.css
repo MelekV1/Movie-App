@@ -1,0 +1,30 @@
+.search {
+ padding-left: 20px;
+ margin-right: 20%;
+}
+
+.search input {
+ width: 190%;
+ outline: none;
+ border: none;
+ padding: 20px 0px 20px 50px;
+ position: relative;
+ font-size: 15px;
+ border-radius: 7px;
+ box-shadow: 0px 0px 10px rgba(0,0,0 ,0.3);
+}
+
+.search input:hover {
+ box-shadow: 0px 0px 10px rgba(0,0,0 ,0.6);
+ border:1px dotted black;
+}
+
+.search input:focus {
+ color: #00437a;
+ background: #e2f0f9;
+}
+
+.notFound{
+ margin: 50px auto;
+ display: flex;
+}
